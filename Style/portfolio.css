@@ -52,6 +52,11 @@
     color: #757575;
 }
 
+.text-center{
+    text-align: center;
+    margin:50px auto 113px ;
+}
+
 /* main style */
 
 body{
@@ -250,6 +255,54 @@ nav .menu a{
     color: #757575;
     
 }
+
+
 hr{
     margin: 30px 0px;
 }
+
+
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin:0px auto;
+    display: flex;
+    gap:117px;
+}
+
+.social h2 , form h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-container .social{
+    max-width: 562px;
+}
+
+
+
+.social p{
+    
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.social .icons a{
+    margin-right: 24px;
+}
+
+form input, form textarea{
+    max-width: 461px;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 349px 18px 30px;
+    margin-bottom: 24px;
+    color: #757575;
+
+}
+
