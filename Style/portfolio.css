@@ -57,6 +57,12 @@
     margin:50px auto 113px ;
 }
 
+ .btn-group{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
 /* main style */
 
 body{
@@ -328,7 +334,7 @@ form input, form textarea{
         padding-top: 60px;
     }
 
-    .selection-container .skill-box , #about .about-container .about-info{
+    .selection-container .skill-box , #about .about-container .about-info , footer .footer-container , #resume .resume-container , nav , #banner{
         flex-direction: column;
     }
 
@@ -343,5 +349,45 @@ form input, form textarea{
     #about .about-container .about-info{
         gap: 40px;
     }
+
+    #resume .resume-container{
+        margin-top: 60px;
+    }
+
+    .resume-card{
+        margin-right: 10px;
+    }
+
+    nav .menu{
+        flex-wrap: wrap;
+    }
+
+    #banner{
+        margin: 20px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #banner .banner-image img{
+        width: 100%;
+    }
+
+    #banner .banner-content h1{
+        font-size: 44px;
+    }
+
+    .btn-group{
+        justify-content: center;
+    }
+
+    header {
+   
+    background:  url(../images/header_bg.png), #FFF8F3;
+    background-position:  right bottom;
+    background-repeat: no-repeat;
+    
+    }
+
+   
 }
 
